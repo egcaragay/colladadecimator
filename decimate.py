@@ -20,7 +20,7 @@ def cleanAllDecimateModifiers(obj):
             obj.modifiers.remove(modifier=m)
 
 
-decimateRatio=Decimal(argv[1].strip(' "'));
+decimateRatio=Decimal(argv[2].strip(' "'));
 modifierName='DecimateMod'
 objectList=bpy.data.objects
 for obj in objectList:
@@ -36,6 +36,6 @@ for obj in objectList:
         bpy.ops.object.modifier_apply(apply_as='DATA', modifier=modifierName)
 
 print("saving file")
-bpy.ops.wm.collada_export(filepath=argv[0])
+bpy.ops.wm.collada_export(filepath=argv[1])
 
 print("Done")
