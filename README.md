@@ -3,7 +3,7 @@
 
 ## Requirements
 
-    - [Blender]https://www.blender.org/download/
+    - [Blender](https://www.blender.org/download/)
 
 ## Examples
 
