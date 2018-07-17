@@ -3,9 +3,9 @@
 
 ### Requirements
 
-    - Blender
-    You can download blender from here 
-    https://www.blender.org/download/
+Blender
+You can download blender from [here](https://www.blender.org/download/)
+    
 
 ## Examples
 
